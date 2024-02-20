@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "ConsoleAccess",
+            "Effect": "Allow",
+            "Action": [
+                "s3:*"
+            ],
+            "Resource": [
+                "arn:aws:s3:::realtor-bucket-edinson",
+                "arn:aws:s3:::realtor-bucket-edinson/*"
+            ]
+        }
+    ]
+}
