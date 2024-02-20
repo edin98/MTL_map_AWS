@@ -15,10 +15,8 @@ This project is a web-based dashboard application that visualizes statistical da
 - [Installation](#installation)
 - [Usage](#usage)
 - [Data Sources](#data-sources)
-- [Dependencies](#dependencies)
 - [License](#license)
 - [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
 
 ## Installation
 
