@@ -19,14 +19,14 @@ my_style = {
     'marginRight': -8,
     'marginTop': -23}
 # Importing the geometric data
-with open("./data/montreal_dissemination_areas2.geojson",
+with open("Montreal_geojson.geojson",
           encoding='utf-8') as geofile:
     j_file = json.load(geofile)
 
 # Importing the population data
-population_data = pd.read_csv('./data/mtl_pop.csv')
-mtl_household_type = pd.read_csv('./data/mtl_household_type.csv')
-mtl_income = pd.read_csv('./data/mtl_income.csv')
+population_data = pd.read_csv('mtl_pop.csv')
+mtl_household_type = pd.read_csv('mtl_household_type.csv')
+mtl_income = pd.read_csv('mtl_income.csv')
 pd.options.display.float_format = '{:,.2f}'.format
 
 all_options = {
